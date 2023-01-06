@@ -85,7 +85,7 @@ body{
 	position:relative;
 	left:1%;
 	top:27%;
-	font-size:30px;
+	font-size:25px;
 }
 #divMsg2{
 	color:white;
@@ -95,7 +95,7 @@ body{
 	position:relative;
 	left:1%;
 	top:28%;
-	font-size:30px;
+	font-size:23px;
 }
 .slide-in-left {
 	-webkit-animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
