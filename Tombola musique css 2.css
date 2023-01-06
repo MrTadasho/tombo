@@ -1,0 +1,122 @@
+body{
+	background-color:#ffb1c1;
+}
+.logo-stema{
+	position:relative;
+	left:0%;
+	top:0%;
+}
+
+.logo-stema img{
+	height:200px;
+	width:200px;
+	border:1px solid black;
+}
+
+.titre{
+	background-color:#ed9cbe;
+	text-align:left;
+	text-indent:30px;
+	color:white;
+	position:relative;
+	top:-14.3%;
+	left:250px;
+	border: 1px solid black;
+	width:50%;
+	height:75px;
+}
+.titre h1{
+	position:relative;
+	top:-5px;
+}
+
+.lots{
+	float:right;
+	background-color:#ed9cbe;
+	color:white;
+	width: 25%;
+	height:70%;
+	position:relative;
+	top:-23%;
+	right:2%;
+	border:1px solid white
+}
+.logo-mona img{
+	position:relative;
+	left:0%;
+	top:10%;
+	width:300px;
+	height:200px;;
+}
+.Lots-titre{
+	text-align:center;
+	font-size:25px;
+}
+.lots-grille{
+	text-align:center;
+	font-size:25px;
+}
+.lots-Mona{
+	text-align:center;
+	font-size:25px;
+}
+.tirage{
+	position:relative;
+	top:-27px;
+	left:10px;
+	width:70%;
+	height:50%;
+	border:1px solid white;
+	background-color:#ed9cbe;
+	color:white;
+}
+.bouton{
+	float:left;
+}
+.tirage-titre{
+	position:relative;
+	left:10px;
+}
+#divMsg{
+	color:blue;
+	text-align:left;
+	width:500px;
+	height:50px;
+	position:relative;
+	left:1%;
+	top:27%;
+	font-size:30px;
+}
+#divMsg2{
+	color:blue;
+	text-align:left;
+	width:500px;
+	height:50px;
+	position:relative;
+	left:1%;
+	top:28%;
+	font-size:30px;
+}
+.slide-in-left {
+	-webkit-animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-1000px);
+            transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
+/*
+ed9cbe
+fe7c9e
+ffb1c1
+*/

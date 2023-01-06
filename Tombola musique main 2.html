@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="Tombola musique css 2.css">
+		<link rel="website icon" type="png" href="logo stemamusique.jpg">
+		<title>Tombola SteMa Musique</title>
+	</head>
+	<body>
+		<div class="logo-stema">
+			<img src="logo stemamusique.jpg">
+		</div>
+		<div class="titre">
+			<h1>Tombola de SteMa Musique</h1>
+		</div>
+		<div class="lots">
+			<div class="Lots-titre">
+				<h2><b>Lots à gagner</b></h2>
+			</div>
+			<div class="lots-grille">
+				<p>1 petits lot-surprise par grille</p>
+			</div>
+			<div class="lots-Mona">
+				<p>3 gros lots pour l'ensemble des grilles</p>
+				<p>3 paniers garnies de chez Mona</p>
+				<p>Épiceries fine à Hérouville-Saint-Clair</p>
+				<div class="logo-mona">
+					<img src="logo mona.jpg">
+				</div>
+			</div>
+		</div>
+		<div class="tirage">
+			<div class="tirage-titre">
+				<h2>Tirage au sort des grilles gagnantes</h2>
+			</div>
+			<div class="bouton">
+				<script>
+					const button = document.createElement('button')
+					button.innerText = 'Tirage au sort'
+					button.style.position="relative";
+					button.style.top="-40%";
+					button.style.left="5%"
+					button.style.width="150px";
+					button.style.height="50px";
+					button.style.border="1px solid white";
+					button.style.color="white";
+					button.style.background="#ed9cbe";
+					button.addEventListener('click', () => {
+					var y=Math.floor(Math.random() * 100)+1;
+					var x=Math.floor(Math.random() * 10)+1;
+					document.getElementById("divMsg").innerHTML = "Numéro de la grille gagnante: " + y;
+					document.getElementById("divMsg2").innerHTML = "Case numéro: " + x;
+					button.style.background="#fe7c9e";
+					setTimeout(function(){button.style.background="#ed9cbe";}, 100);
+					})
+					document.body.appendChild(button)
+				</script>
+			</div>
+			<div class="slide-in-left" id="divMsg"></div>
+			<div class="slide-in-left" id="divMsg2"></div>
+		</div>
+	</body>
+</html>
